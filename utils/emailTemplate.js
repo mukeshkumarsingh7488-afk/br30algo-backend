@@ -6,7 +6,7 @@ export const getOtpEmailTemplate = (otp, userEmail) => {
       <meta charset="utf-8">
       <title>Password Reset Verification</title>
     </head>
-    <body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 40px 0; -webkit-font-smoothing: antialiased;">
+   <body style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:transparent;margin:0;padding:40px 0;-webkit-font-smoothing:antialiased;">
       <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
         <tr>
           <td align="center">
