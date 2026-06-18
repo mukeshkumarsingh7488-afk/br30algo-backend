@@ -10,7 +10,7 @@ export const getOtpEmailTemplate = (otp, userEmail) => {
       <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
         <tr>
           <td align="center">
-            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 520px; background-color: #ffffff; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); overflow: hidden; border: 1px solid #eef2f6;">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:520px;background:transparent;border:none;box-shadow:none;border-radius:24px;overflow:hidden;">
               <!-- TOP BRAND BAR -->
               <tr>
                 <td style="background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); padding: 35px 40px; text-align: center;">
@@ -68,7 +68,7 @@ export const getRegisterOtpEmailTemplate = (otp, userEmail) => {
     <!DOCTYPE html>
     <html>
     <head><meta charset="utf-8"></head>
-    <body style="font-family: Arial, sans-serif; background-color: #f4f6f9; margin: 0; padding: 40px 0;">
+    <body style="font-family:Arial,sans-serif;margin:0;padding:40px 0;">
       <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
           <td align="center">
